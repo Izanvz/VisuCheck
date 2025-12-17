@@ -1,0 +1,23 @@
+samples:
+  images_dir: "data/samples/raw"
+  crops_dir: "data/samples/crops"
+runs:
+  analyze_dir: "artifacts/runs/analyze"
+
+yolo:
+  # Si más adelante entrenas en SKU110K, pon aquí la ruta del .pt
+  weights: "artifacts/yolo/sku110k.pt"
+  # Fallback si no existe el anterior (usa COCO en modo class-agnostic)
+  fallback_weights: "yolov8n.pt"
+  conf: 0.25
+  iou: 0.45
+  device: "cuda"   # "cpu" si no tienes GPU
+  class_agnostic: true
+
+ocr:
+  lang: "en"
+  use_gpu: true
+  use_angle_cls: true
+  det_model_dir: ""
+  rec_model_dir: ""
+  cls_model_dir: ""

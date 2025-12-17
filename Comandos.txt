@@ -1,0 +1,5 @@
+Main:
+python -m scripts.analyze_samples
+
+StreamLit:
+streamlit run dashboard/app.py

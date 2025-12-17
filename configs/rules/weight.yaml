@@ -1,0 +1,4 @@
+units: ['oz','g','kg','lb','ml','l']
+patterns:
+  - '(\\d+(?:\\.\\d+)?)\\s?(oz|g|kg|lb|ml|l)'
+normalize_to: 'g'

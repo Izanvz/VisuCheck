@@ -1,0 +1,4 @@
+lang: "en"
+use_gpu: true
+use_angle_cls: true
+

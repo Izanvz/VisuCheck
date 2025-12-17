@@ -1,0 +1,9 @@
+keywords:
+  - "classic"
+  - "zero"
+  - "diet"
+  - "light"
+  - "organic"
+  - "extra"
+patterns:
+  - '(?i)(classic|zero|diet|light|organic|extra)'

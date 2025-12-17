@@ -1,0 +1,6 @@
+model: "artifacts/yolo/sku110k.pt"
+fallback_model: "yolov8n.pt"
+confidence_threshold: 0.25
+iou_threshold: 0.45
+device: "cuda"
+class_agnostic: true

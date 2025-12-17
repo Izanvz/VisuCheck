@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Entornos virtuales
+.venv/
+.venv310/
+env/
+ENV/
+
+# Variables de entorno
+.env
+
+
+# Datos e imágenes pesadas
+data/SKU110K_fixed/
+data/SKU110K_fixed/**
+data/results/
+data/tmp/
+
+
+# Modelos y pesos
+*.pt
+*.onnx
+*.ckpt
+
+# SO / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
